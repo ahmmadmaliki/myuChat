@@ -1,7 +1,6 @@
 import React from 'react'
 import { GiftedChat } from 'react-native-gifted-chat'
 import firebase from '../config'
-import Firebase from 'firebase'
 import { withNavigation } from 'react-navigation'
 class Chats extends React.Component {
     constructor(props) {

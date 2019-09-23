@@ -75,27 +75,27 @@ class Register extends Component {
                     <Form style={styles.form}>   
                     <Text style={styles.welcome}>Register</Text>                
                             <TextInput onChangeText={value => {this.setState({fullname: value})}}
-                             placeholderTextColor="#FF4500"
+                             placeholderTextColor="black"
                              style={styles.input}
                              placeholder="Full name" />
                             <TextInput onChangeText={value => {this.setState({username: value})}}
-                            placeholderTextColor="#FF4500"
+                            placeholderTextColor="black"
                             style={styles.input} 
                             placeholder="Username" />
                             <TextInput onChangeText={value => {this.setState({image: value})}}
-                             placeholderTextColor="#FF4500"
+                             placeholderTextColor="black"
                              style={styles.input}
                              placeholder="Image Url" />
                             <TextInput onChangeText={value => {this.setState({email: value})}}
-                            placeholderTextColor="#FF4500"
+                            placeholderTextColor="black"
                             style={styles.input} 
                             placeholder="E-mail" />
                             <TextInput onChangeText={value => {this.setState({password: value})}}
-                            placeholderTextColor="#FF4500"
+                            placeholderTextColor="black"
                             secureTextEntry
                             style={styles.input} 
                             placeholder="Password" />
-                            <Button block style={{backgroundColor:'#FF4500'}} onPress={()=>{
+                            <Button block style={{backgroundColor:'#1AB0D3'}} onPress={()=>{
                                 this.handleRegist(this.state)
                             }} >
                                 <Text>Register</Text>
@@ -111,7 +111,7 @@ export default Register
 const styles = StyleSheet.create({
     container: { 
         flex: 1,
-        backgroundColor:'#FFFFE0', 
+        backgroundColor:'#1AB0D3', 
         alignContent:'center', 
         paddingVertical:'10%', 
         paddingHorizontal:15
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
         justifyContent:'space-between',
         alignContent:'center',
         borderRadius:20, 
-        backgroundColor:'#F4A460', 
+        backgroundColor:'#000080', 
         paddingVertical:'10%',
         paddingHorizontal:'7%'
     },
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     },
     input: {  
         borderRadius:10, 
-        backgroundColor:'#FFFFE0', 
+        backgroundColor:'white', 
         opacity: 0.5,
         padding:10,
     },

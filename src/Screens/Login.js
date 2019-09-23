@@ -37,21 +37,21 @@ class Login extends Component {
                     <Form style={styles.form}>  
                             <Text style={styles.welcome}>Welcome to myuChat</Text>                   
                             <TextInput onChangeText={value => {this.setState({email: value})}}
-                             placeholderTextColor="#FF4500"
+                             placeholderTextColor="black"
                              style={styles.input}
                              placeholder="Email" />
                             <TextInput onChangeText={value => {this.setState({password: value})}}
-                            placeholderTextColor="#FF4500"
+                            placeholderTextColor="black"
                             secureTextEntry
                             style={styles.input} 
                             placeholder="Password" />
-                            <Button block style={{backgroundColor:'#FF4500'}} onPress={()=>{
+                            <Button block style={{backgroundColor:'#1AB0D3'}} onPress={()=>{
                                 this.handleLogin()
                             }}>
                                 <Text>Login</Text>
                             </Button> 
                             <Text style={{textAlign: 'center',color:'#FFFFE0'}}>or</Text>  
-                            <Button block style={{backgroundColor:'#FF4500'}} onPress={()=>{
+                            <Button block style={{backgroundColor:'#1AB0D3'}} onPress={()=>{
                               this.props.navigation.navigate('Register')
                             }}>
                                 <Text>Register</Text>
@@ -66,7 +66,7 @@ class Login extends Component {
 const styles = StyleSheet.create({
     container: { 
         flex: 1,
-        backgroundColor:'#FFFFE0', 
+        backgroundColor:'#1AB0D3', 
         alignContent:'center', 
         paddingVertical:'10%', 
         paddingHorizontal:15
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
         justifyContent:'space-between',
         alignContent:'center',
         borderRadius:20, 
-        backgroundColor:'#F4A460', 
+        backgroundColor:'#000080', 
         paddingVertical:'20%',
         paddingHorizontal:'7%'
     },
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     },
     input: {  
         borderRadius:10, 
-        backgroundColor:'#FFFFE0', 
+        backgroundColor:'white', 
         opacity: 0.5,
         padding:10,
     },

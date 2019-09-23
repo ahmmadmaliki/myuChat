@@ -31,7 +31,7 @@ You can watch the preview video [`here`](https://drive.google.com/file/d/1h3EMe-
 ## Screenshot from the App
 <p >
   <span>
-      <image width="200" src="https://res.cloudinary.com/malikycloud/image/upload/v1568561149/login_wfeobe.jpg" />
+      <image width="200" src="https://res.cloudinary.com/malikycloud/image/upload/v1569201389/Screenshot_20190923_080727_com.myuchat_unhzwt.jpg" />
       <image width="200" src="https://res.cloudinary.com/malikycloud/image/upload/v1568561149/maps_ykdki6.jpg" />
       <image width="200" src="https://res.cloudinary.com/malikycloud/image/upload/v1568561149/list_hdxwct.jpg" /> 
       <image width="200" src="https://res.cloudinary.com/malikycloud/image/upload/v1568561149/chat_pkknyo.jpg" /> 
